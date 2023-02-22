@@ -1,0 +1,28 @@
+//
+//  ARtcKit.h
+//  ARtcKit
+//
+//  Copyright © 2020年 anyRTC. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+//! Project version number for ARtcKit.
+FOUNDATION_EXPORT double ARtcKitVersionNumber;
+
+//! Project version string for ARtcKit.
+FOUNDATION_EXPORT const unsigned char ARtcKitVersionString[];
+
+// In this header, you should import all the public headers of your framework using statements like #import <ARtcKit/PublicHeader.h>
+
+#import <ARtcKit/ARObjects.h>
+#import <ARtcKit/ARtcEngineDelegate.h>
+#import <ARtcKit/AREnumerates.h>
+#import <ARtcKit/ARtcEngineKit.h>
+#import <ARtcKit/ARtcChannel.h>
+#import <ARtcKit/ARtcChannelDelegate.h>
+#import <ARtcKit/ARMediaPlayerKit.h>
+#import <ARtcKit/ARStreamingKit.h>
+
+
+
